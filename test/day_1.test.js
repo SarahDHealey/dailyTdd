@@ -1,5 +1,8 @@
-describe('Checks if this stuff works', function() {
-  it('returns "YUP!"', function() {
+'use strict';
+var assert = require('assert');
+var myFuncs = require('../lib/day_1');
+describe('Checks if this stuff works', () => {
+  it('returns "YUP"', () => {
     assert.equal(myFuncs.testFunc(), "YUP!")
-    })
   })
+})
