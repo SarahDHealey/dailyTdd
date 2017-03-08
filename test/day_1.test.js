@@ -14,5 +14,10 @@ describe('blocksFromStart', () => {
       var expected = 2
       assert.equal(myFuncs.getBlocks(input), expected)
     })
+    it('determines the number of blocks Santa would walk if given R5, L5, R5, R3', () => {
+      var input = "R5, L5, R5, R3"
+      var expected = 12
+      assert.equal(myFuncs.getBlocks(input), expected)
+    })
   })
 })
